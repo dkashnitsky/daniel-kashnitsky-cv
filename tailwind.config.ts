@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom portfolio colors using design system tokens
+				'text-primary': 'hsl(var(--text-primary))',
+				'text-secondary': 'hsl(var(--text-secondary))',
+				'accent-blue': 'hsl(var(--accent-blue))',
+				'accent-light': 'hsl(var(--accent-light))',
+				'section-bg': 'hsl(var(--section-bg))',
+				'border-light': 'hsl(var(--border-light))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
