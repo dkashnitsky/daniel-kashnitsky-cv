@@ -24,7 +24,7 @@ import {
 const Contact = () => {
   // Contact information - easy to edit
   const contactInfo = {
-    email: "daniel.kashnitsky@example.com", // Replace with actual email
+    email: "kashnitsky@gmail.com", // Replace with actual email
     phone: "+31 20 123 4567", // Replace with actual phone
     whatsapp: "+31 20 123 4567", // Replace with actual WhatsApp
     telegram: "@danielkash" // Replace with actual Telegram
