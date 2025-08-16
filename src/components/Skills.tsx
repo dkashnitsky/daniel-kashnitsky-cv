@@ -17,22 +17,22 @@ const Skills = () => {
     languages: {
       icon: Globe,
       title: "Languages",
-      items: ["English (Native)", "Russian (Native)", "German (Professional)", "French (Conversational)", "Dutch (Basic)"]
+      items: ["Russian (Native)", "English (Advanced)", "French (Advanced)", "Hebrew (Intermediate)"]
     },
-    research: {
+    competencies: {
       icon: BarChart3,
-      title: "Research & Analysis",
-      items: ["Epidemiological Research", "Systematic Reviews", "Meta-Analysis", "Policy Analysis", "Grant Writing", "Project Management"]
+      title: "Key Competencies",
+      items: ["Migration & Global Health Policy", "HIV/TB Program Design & Evaluation", "Advocacy & Strategic Communication", "Academic Research & Publications", "International Stakeholder Engagement"]
     },
     technical: {
       icon: Code,
       title: "Technical Skills",
-      items: ["STATA", "R", "SPSS", "Epidata", "GIS Mapping", "Database Management", "Statistical Modeling"]
+      items: ["MS Office & Google Tools", "NVIVO & Atlas.ti", "Qualitative Data Analysis", "Professional AI Use", "Social Media Management"]
     },
-    leadership: {
+    grants: {
       icon: Users,
-      title: "Leadership & Advocacy",
-      items: ["Team Leadership", "International Collaboration", "Policy Advocacy", "Stakeholder Engagement", "Public Speaking", "Media Relations"]
+      title: "Grant & Donor Relations",
+      items: ["Global Fund", "UNAIDS", "EU Funding", "Robert Carr Fund", "Capacity Building & Empowerment", "Cross-cultural Sensitivity"]
     }
   };
 

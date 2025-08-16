@@ -15,32 +15,39 @@ const Publications = () => {
   // Publications data - easy to edit
   const publications = [
     {
-      title: "Health Equity and Migration: A Systematic Review of Interventions in Europe",
-      journal: "The Lancet Public Health",
-      year: "2023",
-      description: "Comprehensive analysis of health interventions for migrant populations across 27 European countries.",
-      url: "https://example.com/publication1" // Replace with actual URL
+      title: "Building social equity and person-centred innovation into the end TB response",
+      journal: "The International Journal of Tuberculosis and Lung Disease",
+      year: "2024",
+      description: "Co-authored publication examining social equity approaches in tuberculosis response strategies.",
+      url: "https://www.ingentaconnect.com/content/iuatld/ijtld/2024/00000028/00000011/art00002"
     },
     {
-      title: "HIV Prevention Strategies Among Eastern European Migrants: Multi-Country Analysis",
-      journal: "Journal of Public Health",
+      title: "'Performance of Illegality' Toward Migrants Living with HIV in Russia: From Social Exclusion to Deportation",
+      journal: "Informality, Labour Mobility and Precariousness (Springer)",
       year: "2022",
-      description: "Evidence-based recommendations for HIV prevention programs targeting migrant communities.",
-      url: "https://example.com/publication2" // Replace with actual URL
+      description: "Book chapter analyzing state control mechanisms and social exclusion of migrants with HIV in Russia.",
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-91875-1_7"
     },
     {
-      title: "Tuberculosis Control in Migrant Populations: Policy Recommendations for EU",
-      journal: "European Respiratory Journal",
+      title: "'In Short, We Will Deport You': Disrupted temporalities of migrants with HIV in Russia",
+      journal: "Global Public Health",
       year: "2021",
-      description: "Policy framework for improving TB diagnosis and treatment among migrants in European settings.",
-      url: "https://example.com/publication3" // Replace with actual URL
+      description: "Analysis of temporal disruptions and deportation threats affecting migrants living with HIV.",
+      url: "https://www.tandfonline.com/doi/full/10.1080/17441692.2021.1988692"
     },
     {
-      title: "WHO Guidelines on Migration Health: Implementation Challenges",
-      journal: "Bulletin of the World Health Organization",
+      title: "The Russian HIV residence ban and state control of migration",
+      journal: "Journal of Public Health Policy",
       year: "2020",
-      description: "Analysis of implementation barriers and solutions for WHO migration health guidelines.",
-      url: "https://example.com/publication4" // Replace with actual URL
+      description: "Examination of HIV-based residence restrictions and their impact on migration policy.",
+      url: "https://link.springer.com/article/10.1057/s41271-020-00226-z"
+    },
+    {
+      title: "'Kyrgyz clinics' in Moscow: Medical Centers for Central Asian Migrants",
+      journal: "Journal of Medical Anthropology",
+      year: "2018",
+      description: "Ethnographic study of informal healthcare systems serving Central Asian migrants in Moscow.",
+      url: "https://www.tandfonline.com/doi/full/10.1080/01459740.2018.1532421"
     }
   ];
 

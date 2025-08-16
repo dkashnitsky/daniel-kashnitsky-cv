@@ -15,8 +15,8 @@ import { ArrowDown } from "lucide-react";
 const Hero = () => {
   // Hero content - easy to edit
   const name = "Daniel Kashnitsky";
-  const title = "Public Health & Migration Expert";
-  const introduction = "Public health and migration expert with 15+ years' experience in academic research, international advocacy, and policy change. Proven track record in leading multi-country projects on HIV, TB, and health equity for migrant populations. Adviser to WHO, UN agencies, and EU bodies.";
+  const title = "Public Health & Migration Expert • PhD in Sociology & Demography";
+  const introduction = "Public health and migration expert with 15+ years' experience bridging academic research, international advocacy, and policy change across Eastern Europe, Central Asia, and the EU. PhD in Sociology & Demography (Sorbonne). Proven track record in leading multi-country projects on HIV, TB, and health equity for migrant populations and vulnerable communities. Expert adviser to WHO, UN agencies, and EU bodies. Recognized for building cross-sector coalitions and translating evidence into impactful policy solutions.";
 
   const scrollToContent = () => {
     const element = document.getElementById('experience');

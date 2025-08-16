@@ -24,10 +24,10 @@ import {
 const Contact = () => {
   // Contact information - easy to edit
   const contactInfo = {
-    email: "kashnitsky@gmail.com", // Replace with actual email
-    phone: "+31 20 123 4567", // Replace with actual phone
-    whatsapp: "+31 20 123 4567", // Replace with actual WhatsApp
-    telegram: "@danielkash" // Replace with actual Telegram
+    email: "kashnitsky@gmail.com",
+    phone: "+33-758-88-49-11",
+    whatsapp: "+33-758-88-49-11",
+    telegram: "+33-758-88-49-11"
   };
 
   // Social media and professional profiles - easy to edit
@@ -157,14 +157,26 @@ const Contact = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-12">
-          <Button 
-            size="lg"
-            onClick={() => window.location.href = `mailto:${contactInfo.email}`}
-          >
-            <Mail className="h-5 w-5 mr-2" />
-            Send Email
-          </Button>
+        <div className="text-center mt-12 space-y-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button 
+              size="lg"
+              onClick={() => window.location.href = `mailto:${contactInfo.email}`}
+            >
+              <Mail className="h-5 w-5 mr-2" />
+              Send Email
+            </Button>
+            <Button 
+              size="lg"
+              variant="outline"
+              onClick={() => window.open('/Daniel-Kashnitsky-CV.pdf', '_blank')}
+            >
+              <svg className="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Download CV (PDF)
+            </Button>
+          </div>
         </div>
       </div>
     </section>

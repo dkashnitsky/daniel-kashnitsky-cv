@@ -13,28 +13,34 @@ const Experience = () => {
   // Professional experience data - easy to edit
   const experiences = [
     {
-      title: "Senior Research Fellow",
-      company: "International Health Institute",
-      period: "2018 - Present",
-      description: "Leading multi-country research projects on migrant health, HIV/TB prevention, and health equity. Advising WHO and EU bodies on migration health policies."
-    },
-    {
-      title: "Migration Health Consultant",
-      company: "World Health Organization",
+      title: "Chair of the Board & Academic Relations",
+      company: "Regional Expert Group on Migration and Health",
       period: "2020 - Present",
-      description: "Technical advisor on migration health policies and programs. Developing guidelines for health services for migrant populations across Europe."
+      description: "Lead operational research and advocacy initiatives improving access to healthcare for migrants across Eastern Europe and Central Asia. Contributed to adoption of national laws in three EECA countries enabling transnational HIV care for migrants. Managed secretariat team overseeing annual budget of ~USD 150K."
     },
     {
-      title: "Research Director",
-      company: "Public Health Research Center",
-      period: "2015 - 2018",
-      description: "Managed research teams and coordinated international collaborations on HIV prevention and tuberculosis control in Eastern Europe."
+      title: "Postdoctoral Researcher",
+      company: "Cermes3, Paris Cité University, France",
+      period: "2023 - Present",
+      description: "Leading ANRS-MIE (INSERM)-funded project 'East-European Refugees in Receiving Countries' examining barriers and community engagement to improve access to HIV and TB care. Founded network uniting community-based and academic researchers. Laureate, PAUSE Program, Collège de France."
     },
     {
-      title: "Public Health Specialist",
-      company: "European Centre for Disease Prevention and Control",
-      period: "2012 - 2015",
-      description: "Conducted epidemiological surveillance and developed prevention strategies for communicable diseases among vulnerable populations."
+      title: "Community, Rights and Gender Program Manager",
+      company: "TB Europe Coalition, Kyiv, Ukraine",
+      period: "2019 - 2020",
+      description: "Coordinated development of training modules and guidelines for members across Eastern Europe and Central Asia. Represented Coalition in WHO and Stop TB Partnership expert groups. Led initiatives addressing gender, age, and human-rights barriers to HIV, TB services."
+    },
+    {
+      title: "Technical Support Specialist",
+      company: "European and Central Asia Union of People Living with HIV",
+      period: "2017 - 2018",
+      description: "Provided technical support to community organizations in 10 EECA countries for Global Fund regional program. Led regional advocacy campaign promoting migrants' rights to access HIV and TB care across EECA region."
+    },
+    {
+      title: "Program Manager, Sustainability and Transition Team",
+      company: "Eurasian Harm Reduction Association, Vilnius, Lithuania",
+      period: "2015 - 2017",
+      description: "Managed Global Fund project 'Equitable Access to HIV Care Continuum in the EECA Region' in 7 countries. Led Eurasian Regional Consortium project funded by Robert Carr Fund. Directed program monitoring and evaluation."
     }
   ];
 

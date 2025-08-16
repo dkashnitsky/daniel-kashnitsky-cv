@@ -13,28 +13,40 @@ const Volunteering = () => {
   // Volunteering activities - easy to edit
   const activities = [
     {
-      organization: "Doctors Without Borders",
-      role: "Public Health Consultant",
-      period: "2019 - Present",
-      description: "Providing technical expertise on health programs for refugee populations in crisis settings."
+      organization: "Melograno Association, France",
+      role: "Volunteer Coordinator",
+      period: "2023 - Present",
+      description: "Coordinator of the Sleeping Bags for Ukraine initiative, managing crowdfunding campaigns for Ukrainian civil society."
     },
     {
-      organization: "European Public Health Alliance",
+      organization: "TB Europe Coalition",
       role: "Board Member",
+      period: "2021 - Present",
+      description: "Contributing to policy advocacy and strategic direction for tuberculosis response across Europe."
+    },
+    {
+      organization: "Health Advocacy Coalition",
+      role: "Board Member",
+      period: "2023 - Present",
+      description: "Advancing health advocacy initiatives and policy development for vulnerable populations."
+    },
+    {
+      organization: "WHO EURO Regional Collaborating Committee",
+      role: "Member (RCC-THV)",
       period: "2020 - Present",
-      description: "Contributing to policy advocacy for health equity and migrant health rights across Europe."
+      description: "Contributing expertise to WHO regional health policy development and implementation strategies."
     },
     {
-      organization: "International AIDS Society",
-      role: "Scientific Committee Member",
-      period: "2018 - Present",
-      description: "Reviewing research proposals and shaping global HIV prevention strategies."
+      organization: "Regional Civil Society Platform EECA",
+      role: "Member",
+      period: "2019 - Present",
+      description: "Participating in coordination and communication platform for civil society organizations across Eastern Europe and Central Asia."
     },
     {
-      organization: "Red Cross International",
-      role: "Health Advisory Group",
-      period: "2017 - Present",
-      description: "Advising on health program development for vulnerable and displaced populations."
+      organization: "Social Science & Health Innovation for Tuberculosis",
+      role: "Member",
+      period: "Ongoing",
+      description: "Contributing to interdisciplinary research and innovation initiatives for tuberculosis prevention and care."
     }
   ];
 

@@ -14,22 +14,28 @@ const Education = () => {
   // Education data - easy to edit
   const education = [
     {
-      degree: "PhD in Public Health",
-      institution: "University of Amsterdam",
-      year: "2012",
-      description: "Dissertation on HIV prevention strategies among migrant populations in Europe. Magna cum laude."
+      degree: "PhD in Sociology and Demography",
+      institution: "Doctoral school 624, Sorbonne, Paris",
+      year: "2023",
+      description: "Dissertation: Barriers and informal strategies to access medical care for irregular labor migrants living with HIV in Russia. 180 credits."
     },
     {
-      degree: "Master of Science in Epidemiology",
-      institution: "London School of Hygiene & Tropical Medicine",
-      year: "2008",
-      description: "Specialized in infectious disease epidemiology and global health policy."
+      degree: "Guest PhD Scholar",
+      institution: "Linköping University, Sweden",
+      year: "2019-2020",
+      description: "Research Center for Migration, Ethnicity and Society under supervision of Anna Bredström. Scholarship from the Swedish Institute."
     },
     {
-      degree: "Bachelor of Medicine",
-      institution: "Medical University",
-      year: "2006",
-      description: "General medicine with focus on public health and preventive medicine."
+      degree: "Master of Science in Public Health",
+      institution: "Lund University, Sweden",
+      year: "2009-2011",
+      description: "Concentration: epidemiology and biostatistics, health communication, social diseases, reproductive health, and rights. 120 credits."
+    },
+    {
+      degree: "Specialist in Theoretical and Applied Linguistics",
+      institution: "Moscow State University, Russia",
+      year: "1998-2003",
+      description: "Comprehensive linguistic training with focus on theoretical and applied aspects of language studies."
     }
   ];
 
